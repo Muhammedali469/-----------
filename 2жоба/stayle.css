@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.head1 {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(218, 22, 22);
+  border-bottom: 0.5px solid black;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.head2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+header {
+  background: rgb(255, 0, 0);
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.logatip {
+  width: 60px;
+  height: 60px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+.fon {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.word {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.salesDepartment h1 {
+  display: flex;
+  justify-content: center;
+}
+.selescard {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.selescard button {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  background: blueviolet;
+}
+main {
+  gap: 20px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px 300px;
+}
+
+.card {
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.card img {
+  height: 60%;
+  width: 100%;
+  border-radius: 20px;
+}
+.group-con {
+  font-size: 30px;
+}
+.taem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  align-items: center;
+}
+/*  */
+footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 100px;
+  background: rgb(255, 0, 0);
+}
+.iconfoot {
+  width: 50px;
+  height: 50px;
+}
+.iconfoot1 {
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+}
+/*  */
